@@ -1,4 +1,4 @@
-import { RawEvent } from './types/raw/RawEvent'
+import { RawEvent } from './types/Event'
 import { mapOrderSuccessEvent } from './util/mapOrderSuccessEvent'
 
 export * from './types/Address'

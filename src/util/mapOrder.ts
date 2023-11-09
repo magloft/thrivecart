@@ -1,5 +1,4 @@
-import { Order } from '../types/Order'
-import { RawOrder } from '../types/raw/RawOrder'
+import { Order, RawOrder } from '../types/Order'
 import { mapCharge } from './mapCharge'
 import { mapNullNumber, mapNullString } from './mapScalar'
 

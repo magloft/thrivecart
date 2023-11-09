@@ -1,6 +1,5 @@
 import { EventMode, EventType } from '../types/Event'
-import { OrderSuccessEvent } from '../types/OrderSuccessEvent'
-import { RawOrderSuccessEvent } from '../types/raw/RawOrderSuccessEvent'
+import { OrderSuccessEvent, RawOrderSuccessEvent } from '../types/OrderSuccessEvent'
 import { mapCustomer } from './mapCustomer'
 import { mapOrder } from './mapOrder'
 import { mapNullString } from './mapScalar'

@@ -1,5 +1,4 @@
-import { Charge } from '../types/Charge'
-import { RawCharge } from '../types/raw/RawCharge'
+import { Charge, RawCharge } from '../types/Charge'
 import { mapBoolean } from './mapScalar'
 
 export function mapCharge(data: RawCharge): Charge {

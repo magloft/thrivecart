@@ -1,3 +1,5 @@
+import { RawOrderSuccessEvent } from './OrderSuccessEvent'
+
 export type EventType =
   'order.success' |
   'order.refund' |
@@ -8,3 +10,5 @@ export type EventType =
   'order.rebill_failed'
 
 export type EventMode = 'test' | 'live'
+
+export type RawEvent = RawOrderSuccessEvent

@@ -1,5 +1,4 @@
-import { Customer } from '../types/Customer'
-import { RawCustomer } from '../types/raw/RawCustomer'
+import { Customer, RawCustomer } from '../types/Customer'
 import { mapBoolean } from './mapScalar'
 
 export function mapCustomer(data: RawCustomer): Customer {
