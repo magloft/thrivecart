@@ -16,7 +16,7 @@ export function mapOrder(data: RawOrder): Order {
     dateUnix: +data.date_unix,
     trackingId: mapNullString(data.tracking_id),
     tax: mapNullNumber(data.tax),
-    charges: data.charges.map(mapCharge),
-    futureCharges: data.future_charges.map(mapCharge)
+    charges: data.charges?.map(mapCharge),
+    futureCharges: data.future_charges?.map(mapCharge)
   }
 }

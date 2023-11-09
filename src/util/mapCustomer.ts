@@ -11,7 +11,7 @@ export function mapCustomer(data: RawCustomer): Customer {
     email: data.email,
     businessName: data.business_name,
     ipAddress: data.ip_address,
-    address: data.address,
+    address: Array.isArray(data.address) ? undefined : data.address,
     firstName: data.first_name,
     lastName: data.last_name,
     checkboxConfirmation: mapBoolean(data.checkbox_confirmation)

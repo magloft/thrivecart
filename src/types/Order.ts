@@ -13,8 +13,8 @@ export interface RawOrder {
   date_unix: string
   tracking_id: string
   tax: string
-  charges: RawCharge[]
-  future_charges: RawCharge[]
+  charges?: RawCharge[]
+  future_charges?: RawCharge[]
 }
 
 export interface Order {
@@ -30,6 +30,6 @@ export interface Order {
   dateUnix: number
   trackingId?: string
   tax?: number
-  charges: Charge[]
-  futureCharges: Charge[]
+  charges?: Charge[]
+  futureCharges?: Charge[]
 }

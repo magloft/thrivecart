@@ -1,3 +1,4 @@
+import { RawOrderSubscriptionCancelledEvent } from './OrderSubscriptionCancelledEvent'
 import { RawOrderSuccessEvent } from './OrderSuccessEvent'
 
 export type EventType =
@@ -11,4 +12,4 @@ export type EventType =
 
 export type EventMode = 'test' | 'live'
 
-export type RawEvent = RawOrderSuccessEvent
+export type RawEvent = RawOrderSuccessEvent | RawOrderSubscriptionCancelledEvent

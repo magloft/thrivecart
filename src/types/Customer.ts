@@ -24,7 +24,7 @@ export interface Customer {
   email: string
   businessName?: string
   ipAddress: string
-  address: Address
+  address?: Address
   firstName: string
   lastName: string
   checkboxConfirmation: boolean
