@@ -1,0 +1,125 @@
+{
+  "event": "order.success",
+  "mode": "test",
+  "mode_int": "1",
+  "thrivecart_account": "magloft",
+  "thrivecart_secret": "P9G9F1XL6GNU",
+  "base_product": "12",
+  "base_product_name": "Mobile & Universal App Pro",
+  "base_product_label": "",
+  "base_product_owner": "110359",
+  "order_id": "23370556",
+  "invoice_id": "000001382",
+  "subscription_ids": {
+    "product-12": "3498819"
+  },
+  "order_date": "2023-11-08 23:48:20",
+  "order_timestamp": "1699487300",
+  "currency": "USD",
+  "customer_id": "429583657727489355",
+  "customer_identifier": "null",
+  "customer": {
+    "id": "429583657727489355",
+    "client_user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
+    "client_meta_fbp": "fb.1.1697072452426.266636192",
+    "origin": "vanity",
+    "name": "Tobias Strebitzer",
+    "email": "tobias.strebitzer@magloft.com",
+    "business_name": "MagLoft",
+    "ip_address": "182.253.163.39",
+    "address": {
+      "country": "ID"
+    },
+    "first_name": "Tobias",
+    "last_name": "Strebitzer",
+    "checkbox_confirmation": "false"
+  },
+  "affiliate": "null",
+  "order": {
+    "id": "23370556",
+    "invoice_id": "000001382",
+    "processor": "stripe_v2",
+    "total": "499700",
+    "total_str": "4997.00",
+    "total_gross": "499700",
+    "total_gross_str": "4997.00",
+    "date": "2023-11-08 23:48:20",
+    "date_iso8601": "2023-11-08T23:48:20+00:00",
+    "date_unix": "1699487300",
+    "tracking_id": "null",
+    "tax": "null",
+    "charges": [
+      {
+        "name": "Mobile &amp; Universal App Pro",
+        "label": "",
+        "reference": "12",
+        "item_type": "product",
+        "item_identifier": "product_12",
+        "amount": "499700",
+        "amount_str": "4997.00",
+        "original_amount": "499700",
+        "original_amount_str": "4997.00",
+        "type": "single",
+        "quantity": "1",
+        "unit_price": "499700",
+        "unit_price_str": "4997.00",
+        "defer": "false",
+        "amount_gross": "499700",
+        "amount_gross_str": "4997.00",
+        "tax_paid": "0",
+        "tax_paid_str": "0.00",
+        "related_to_recur": "true",
+        "payment_plan_id": "83322",
+        "payment_plan_name": "Yearly Subscription ($4997.00)"
+      }
+    ],
+    "future_charges": [
+      {
+        "name": "Mobile &amp; Universal App Pro",
+        "label": "",
+        "reference": "12",
+        "item_type": "product",
+        "item_identifier": "product_12",
+        "amount": "499700",
+        "amount_str": "4997.00",
+        "original_amount": "499700",
+        "original_amount_str": "4997.00",
+        "frequency": "year",
+        "frequency_days": "365",
+        "type": "recurring",
+        "defer": "true",
+        "amount_gross": "499700",
+        "amount_gross_str": "4997.00",
+        "tax_paid": "0",
+        "tax_paid_str": "0.00",
+        "due": "2024-11-08 23:48:19",
+        "defer_date": "1731109699",
+        "payment_plan_id": "83322",
+        "payment_plan_name": "Yearly Subscription ($4997.00)"
+      }
+    ]
+  },
+  "transactions": {
+    "product-12": "ch_3OALTjD8ltzmnnom0bR4w3lq"
+  },
+  "subscriptions": {
+    "product-12": "sub_1OALTiD8ltzmnnomYVvKqjze"
+  },
+  "purchases": [
+    "Mobile &amp; Universal App Pro"
+  ],
+  "purchase_map": [
+    "product-12"
+  ],
+  "purchase_map_flat": "product-12",
+  "accessible_purchases": [
+    "Mobile &amp; Universal App Pro"
+  ],
+  "accessible_purchase_map": [
+    "product-12"
+  ],
+  "accessible_purchase_map_flat": "product-12",
+  "fulfillment": {
+    "url": "https://deals.magloft.com/mobile-universal-app-pro/confirm/a723b6737a2adc99b3425b855b71251df1e2d3724966/"
+  }
+}
